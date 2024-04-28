@@ -1,8 +1,10 @@
 const clone = require('clone')
 const config = require('./config')
-
+const dotenv = require('dotenv')
 const db = {}
 
+dotenv.config();
+dotenv
 const defaultData = {
   contacts: [
     {
